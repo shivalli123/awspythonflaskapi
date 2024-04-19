@@ -8,10 +8,10 @@ The serverless.yml file is used to define the configuration and resources for de
 - Install the Serverless Framework globally on your local machine using npm:
  npm install -g serverless
 
--Update the serverless.yml file with your application-specific settings, such as function handler, runtime, and events.
+- Update the serverless.yml file with your application-specific settings, such as function handler, runtime, and events.
 - Deploy the serverless application to AWS Lambda by running the following command:
   serverless deploy
--Test the deployed application by invoking the Lambda function directly or accessing the API Gateway endpoint provided in the deployment output.
+- Test the deployed application by invoking the Lambda function directly or accessing the API Gateway endpoint provided in the deployment output.
 
 ## Files
 1. serverless.yml: This file contains the configuration for deploying the serverless application. It defines the AWS Lambda function, API Gateway endpoint, and other necessary resources.
