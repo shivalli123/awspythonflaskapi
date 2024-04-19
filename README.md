@@ -22,7 +22,7 @@ If you need to include additional libraries or dependencies in your Lambda funct
 
 - Create a Layer: Create a new directory for your layer and include the necessary libraries. For example, to add the requests library, create a directory named python and install the library using pip:
 mkdir python
-pip install requests -t python/
+pip install flask -t python/
 pip install requests -t python/
 
 - Package the Layer: Package the contents of the layer directory into a ZIP file:
