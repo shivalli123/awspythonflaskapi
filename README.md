@@ -33,7 +33,6 @@ zip -r layer.zip .
 - Attach the Layer to Lambda Function: In the serverless.yml file, specify the ARN of the layer to attach it to the Lambda function. Use the layers property under the function's configuration.
 With these steps, you can easily include additional libraries in your Lambda function using layers.
 
-
 ## Usage
 -Dependencies: Ensure that the required dependencies such as Flask, requests, and awsgi are installed in your development environment.
 -Configuration: Update the Flask application code in lambdahandler.py with your application-specific logic and routes.
