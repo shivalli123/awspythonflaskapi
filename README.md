@@ -30,7 +30,7 @@ cd python
 zip -r layer.zip .
 
 - Deploy the Layer: Upload the ZIP file to AWS Lambda as a layer. You can do this using the AWS Management Console or the AWS CLI.
-  Attach the Layer to Lambda Function: In the serverless.yml file, specify the ARN of the layer to attach it to the Lambda function. Use the layers property under the function's configuration.
+- Attach the Layer to Lambda Function: In the serverless.yml file, specify the ARN of the layer to attach it to the Lambda function. Use the layers property under the function's configuration.
 With these steps, you can easily include additional libraries in your Lambda function using layers.
 
 
