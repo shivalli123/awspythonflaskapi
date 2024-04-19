@@ -1,0 +1,18 @@
+Description: Flask application deployed as an AWS Lambda function
+
+Resources:
+  FlaskLambdaFunction:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: handler.lambda_handler
+      Runtime: python3.8
+      CodeUri: .
+      Timeout: 30
+      Environment:
+        Variables: {}
+      Events:
+        GetProductDetailsApi:
+          Type: HttpApi
+          Properties:
+            Path: /get_product_details
+            Method: GET
